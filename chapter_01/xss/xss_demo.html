@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XSS跨站脚本攻击</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    eval(location.hash.substr(1));
+</script>
+</html>
